@@ -1,0 +1,25 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Base.Theme.NewsApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/skyBlue</item>
+
+    </style>
+
+    <style name="Theme.NewsApp" parent="Base.Theme.NewsApp" />
+
+    <style name="custom_card_view_style" parent="Widget.MaterialComponents.CardView">
+        <item name="shapeAppearanceOverlay">@style/card_view_layout</item>
+    </style>
+
+    <style name="card_view_layout" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopRight">48dp</item>
+        <item name="cornerSizeTopLeft">48dp</item>
+        <item name="android:bottomLeftRadius">0dp</item>
+        <item name="android:bottomRightRadius">0dp</item>
+
+    </style>
+
+</resources>
