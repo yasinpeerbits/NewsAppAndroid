@@ -44,3 +44,8 @@ data class GradeData(
     val id: Int?,
     val name: String?
 )
+
+data class LoginRequest(
+    val username: String,
+    val password: String
+)
